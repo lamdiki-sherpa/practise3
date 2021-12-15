@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Village Restro</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="script.js">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">VilagRstro<span>.<span></a>
+		<ul class="navigation">
+			<li><a href="#banner">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#menu">Menu</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</header>
+	<section class="banner" id="banner">
+		<div class="banner-content">
+			<h2>Good Food Good Life<span>.<span></h2>
+			<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Doloremque aspernatur earum beatae quos mollitia molestiae reprehenderit? Ratione ipsa, odit vel.</p>
+			<a href="#menu" class="btn">Our Menu</a>
+		</div>
+   </section>
+   <section class="about" id="about">
+   <div class="row">
+   	<div class="col50">
+   		<h3 class="title"><span>A</span>bout Us</h3>
+   		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet quas quos a adipisci nisi possimus, sint ex voluptas doloribus sit tempore nemo, architecto illo ducimus. Autem suscipit vero amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci animi pariatur magni quis facilis minima omnis. Architecto eum asperiores ex, dolore corrupti sed tenetur hic, itaque, facere expedita provident perspiciatis!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet quas quos a adipisci nisi possimus, sint ex voluptas doloribus sit tempore nemo, architecto illo ducimus.Architecto eum asperiores ex, dolore corrupti sed tenetur hic, itaque, facere expedita provident perspiciatis! </p>
+   	</div>
+   	<div class="col50">
+   		<img src="img/5.jpg" alt="">
+   	</div>
+   </div>
+</section>
+<section class="menu" id="menu">
+	<h3 class="title">Our <span>M</span>enu</h3>
+	<div class="row">
+		<div class="box">
+		<img src="img/2.jpg" alt="img1" style="height:250px; width:340px;">
+		<h4 class="description">Shrimp Rice</h4>
+		<p class="price">Rs.550</p>
+	</div>
+	<div class="box">
+        <img src="img/3.jpg" alt="img2" style="height:250px; width:340px;">
+		<h4 class="description">Egg Noodles</h4>
+		<p class="price">Rs.400</p>
+	</div>
+	<div class="box">
+		<img src="img/4.jpg" alt="img3" style="height:250px; width:340px;">
+		<h4 class="description">Cheese Pasta</h4>
+		<p class="price">Rs.350</p>
+	</div>
+	
+	</div>
+	<div class="row">
+		<div class="box" >
+		<img src="img/4.jpg" alt="img1" style="height:250px; width:340px;">
+		<h4 class="description">Shrimp Rice</h4>
+		<p class="price">Rs.550</p>
+	</div>
+	<div class="box">
+        <img src="img/7.jpg" alt="img2" style="height:250px; width:340px;">
+		<h4 class="description">Dessert</h4>
+		<p class="price">Rs.400</p>
+	</div>
+	<div class="box">
+		<img src="img/2.jpg" alt="img3" style="height:250px; width:340px;">
+		<h4 class="description">Cheese Pasta</h4>
+		<p class="price">Rs.350</p>
+	</div>
+	</div>
+	<button class="btn">View All</button>
+</section>
+<section class="contact" id="contact">
+	<h3 class="title"><span>C</span>ontact Us</h3>
+	<form action="">
+		<div class="contactform">
+			<h4>Send Message</h4>
+ <div class="inputbox">
+ 	<input type="text" placeholder="name">
+ </div>	
+ <div class="inputbox">
+ 	<input type="text" placeholder="email">
+ </div>	
+ <div class="inputbox">
+ 	<textarea placeholder="description"></textarea>
+ </div>	
+ <div class="inputbox">
+ 	<input type="submit" value="Send">
+ </div>	
+</div>
+	</form>
+
+	
+</section>
+<script type="text/javascript">
+	window.addEventListener('scroll',function(){
+		const header = document.querySelector('header');
+		header.classList.toggle("sticky", window.scrollY > 0);
+
+	});
+</script>
+</body>
+</html>
